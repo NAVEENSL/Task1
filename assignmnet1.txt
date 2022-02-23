@@ -1,0 +1,87 @@
+#1.) Given  numbe is even or not
+
+a=int(input())
+if n%2 == 0:
+  print('EVEN')
+else:
+  print('NOT EVEN')
+
+#2.) Python program to convert the temperature in degree centigrade to Fahrenheit.
+
+a=int(input())
+f=(c*9/5)+32
+print(f)
+
+#3.) Python program to find the product of a set of real numbers
+
+import math
+nums = [10, 20, 30,]
+print(nums)
+nums_product = math.prod(nums)
+print(nums_product)
+
+#4.)Python program to find the factorial of a number using recursion.
+
+def factorial(x):
+   
+
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+num = 3
+print(factorial(num))
+
+#5.) Python program to implement linear search.
+
+def a(a1, x):
+
+   for i in range(len(a1)):
+
+      if a1[i] == x:
+
+         return i
+
+   return "Not Found"
+
+a1 = [1,2,3,4,5,6,7,8,9]
+
+x = '9'
+
+#Python program to find the largest number in a list without using built-in functions.
+
+ a = [] 
+
+b= int(input()) 
+
+for i in range(b): 
+
+ c = int(input())
+
+  a.append(c) 
+
+a.sort() 
+
+print(a) 
+
+print(a[-1]) 
+
+print(str(a(a1,x)))
+
+#Python program to delete an element from a list by index.
+
+
+list = [1,2,3,4,5,6,7,8,9] 
+
+del list[3] 
+
+print(list) 
+
+#Python program to print all the items in a dictionary.
+
+dict = {   'a': 5,
+                    'b': 7, 
+                    'c': 10, 
+                    'd': 8}
+for key, value in dict.items():
+    print(key, ' : ', value)
